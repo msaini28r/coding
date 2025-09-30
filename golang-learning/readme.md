@@ -10,3 +10,11 @@ const Login string = "Mohit"  // Exported (public)
 const password string = "secret"  // Unexported (private)
 
 ```
+
+4. The best way to declare any varible, is using := because it will decide the type itself. This is called walrus operator
+
+```
+Name := "Mohit"
+Number := 4
+Value := 5.67
+```
